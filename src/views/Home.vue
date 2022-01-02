@@ -21,14 +21,14 @@ export default {
       },
       sampleBlogPost: [
         {
-          title: "This is filter title!",
+          blogTitle: "This is filter title!",
           blogHTML:"This is a filter blogpost title",
-          blogCoverPhoto: "designed for everyone",
+          blogCoverPhoto: "beautiful-stories",
         },
         {
-          title: "This is filter title!",
+          blogTitle: "This is filter title2!",
           blogHTML:"This is a filter blogpost title",
-          blogCoverPhoto: "designed for everyone",
+          blogCoverPhoto: "designed-for-everyone",
         }
       ]
     }
