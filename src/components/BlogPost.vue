@@ -133,5 +133,21 @@ export default {
             object-fit: cover;
         }
     }
+
+    &:nth-child(even){
+      .blog-content{
+        order:2
+      }
+      .blog-photo{
+        order: 1;
+      }
+    }
+}
+
+.no-user:first-child{
+  .blog-content{
+    background-color: #303030;
+    color: #fff;
+  }
 }
 </style>
